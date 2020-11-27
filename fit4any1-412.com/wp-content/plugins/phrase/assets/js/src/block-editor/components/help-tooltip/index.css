@@ -1,0 +1,11 @@
+.phrase-help-tooltip {
+	display: inline-flex;
+
+	&__icon {
+		fill: #b4b9be;
+	}
+}
+
+.phrase-help-tooltip__popover .components-popover__content {
+	padding: 12px;
+}

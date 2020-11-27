@@ -1,0 +1,55 @@
+.phrase-flag-icon {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+}
+
+.fixed .column-phrase-project,
+.fixed .column-phrase-type {
+	width: 10%;
+}
+
+.fixed .column-phrase-translation-progress {
+	width: 15%;
+}
+
+.fixed .column-phrase-language {
+	width: 6em;
+}
+
+.phrase-translation-state {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	&__progress {
+		flex: 1 0 50%;
+		height: 7px;
+		max-width: 120px;
+		background-color: #ccc;
+
+		&-inner {
+			position: relative;
+			background: #555;
+			height: 7px;
+		}
+	}
+
+	&__percent {
+		margin-left: 4px;
+	}
+
+	&__complete {
+		.dashicons {
+			display: inline-block;
+			color: #4ab866;
+		}
+	}
+}
+
+.column-phrase-project a .dashicons::before {
+	font-size: 15px;
+	position: relative;
+	top: -4px;
+}

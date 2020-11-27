@@ -1,0 +1,827 @@
+# Copyright (C) 2016 Calorie Calculator Pro
+# This file is distributed under the same license as the Calorie Calculator Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Calorie Calculator Pro 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/calorie-calculator-pro\n"
+"POT-Creation-Date: 2016-12-11 16:32+0600\n"
+"PO-Revision-Date: 2016-12-11 16:35+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: calorie-calculator.php:100 classes/Calorie_Calculator_Shortcode.php:92
+#: widgets/Calorie_Calculator_Widget.php:109
+msgid "Sending Email..."
+msgstr "ইমেইল পাঠানো হচ্ছে…"
+
+#: calorie-calculator.php:101 classes/Calorie_Calculator_Shortcode.php:93
+#: templates/shortcode/shortcode-bootstrap-template.php:186
+#: templates/shortcode/shortcode-general-template.php:152
+#: templates/widget-frontend/bootstrap-template.php:180
+#: templates/widget-frontend/general-template.php:150
+#: widgets/Calorie_Calculator_Widget.php:110
+msgid "Send me an Email!"
+msgstr "আমাকে ইমেইল পাঠান!"
+
+#: calorie-calculator.php:102 classes/Calorie_Calculator_Shortcode.php:94
+#: widgets/Calorie_Calculator_Widget.php:111
+msgid "Sorry! Email cannot be sent right now!"
+msgstr "দুঃখিত! এই মুহূর্তে ইমেইল পাঠানো সম্ভব না!"
+
+#: calorie-calculator.php:103 classes/Calorie_Calculator_Shortcode.php:95
+#: widgets/Calorie_Calculator_Widget.php:112
+msgid "Downloading..."
+msgstr "ডাউনলোড হচ্ছে…"
+
+#: calorie-calculator.php:104 classes/Calorie_Calculator_Shortcode.php:96
+#: widgets/Calorie_Calculator_Widget.php:113
+msgid "Processing download..."
+msgstr "ডাউনলোডের কাজ চলছে…"
+
+#: calorie-calculator.php:105 classes/Calorie_Calculator_Shortcode.php:97
+#: templates/shortcode/shortcode-bootstrap-template.php:197
+#: templates/shortcode/shortcode-general-template.php:162
+#: templates/widget-frontend/bootstrap-template.php:190
+#: templates/widget-frontend/general-template.php:160
+#: widgets/Calorie_Calculator_Widget.php:114
+msgid "Download as PDF"
+msgstr "পিডিএফ হিসেবে ডাউনলোড করুন"
+
+#: calorie-calculator.php:106 classes/Calorie_Calculator_Shortcode.php:98
+#: widgets/Calorie_Calculator_Widget.php:115
+msgid "Sorry! Something went wrong!"
+msgstr "দুঃখিত! কোথাও সমস্যা হয়েছে"
+
+#: calorie-calculator.php:107 classes/Calorie_Calculator_Shortcode.php:99
+#: widgets/Calorie_Calculator_Widget.php:116
+msgid "Please Fill up all of the fields!"
+msgstr "দয়া করে সকল স্থান পূরণ করুন!"
+
+#: calorie-calculator.php:108 classes/Calorie_Calculator_Shortcode.php:100
+#: widgets/Calorie_Calculator_Widget.php:117
+msgid "BMR"
+msgstr "বিএমআর"
+
+#: calorie-calculator.php:109 classes/Calorie_Calculator_Shortcode.php:101
+#: widgets/Calorie_Calculator_Widget.php:118
+msgid "Calories/day"
+msgstr "ক্যালরি/দিন"
+
+#: calorie-calculator.php:110 classes/Calorie_Calculator_Shortcode.php:102
+#: widgets/Calorie_Calculator_Widget.php:119
+msgid "You need"
+msgstr "আপনার লাগবে"
+
+#: calorie-calculator.php:111 classes/Calorie_Calculator_Shortcode.php:103
+#: widgets/Calorie_Calculator_Widget.php:120
+msgid "Calories/day to maintain your weight."
+msgstr "ক্যালরি/দিন - আপনার বর্তমান ওজন বজায় রাখতে।"
+
+#: calorie-calculator.php:112 classes/Calorie_Calculator_Shortcode.php:104
+#: widgets/Calorie_Calculator_Widget.php:121
+msgid "Calories/day to lose 1 lb per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ১ পাউন্ড কমাতে।"
+
+#: calorie-calculator.php:113 classes/Calorie_Calculator_Shortcode.php:105
+#: widgets/Calorie_Calculator_Widget.php:122
+msgid "Calories/day to lose 2 lb per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ২ পাউন্ড কমাতে।"
+
+#: calorie-calculator.php:114 classes/Calorie_Calculator_Shortcode.php:106
+#: widgets/Calorie_Calculator_Widget.php:123
+msgid "Calories/day to gain 1 lb per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ১ পাউন্ড বাড়াতে।"
+
+#: calorie-calculator.php:115 classes/Calorie_Calculator_Shortcode.php:107
+#: widgets/Calorie_Calculator_Widget.php:124
+msgid "Calories/day to gain 2 lb per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ২ পাউন্ড বাড়াতে।"
+
+#: calorie-calculator.php:116 classes/Calorie_Calculator_Shortcode.php:108
+#: widgets/Calorie_Calculator_Widget.php:125
+msgid "Calories/day to lose 0.5 kg per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ০.৫ কেজি কমাতে।"
+
+#: calorie-calculator.php:117 classes/Calorie_Calculator_Shortcode.php:109
+#: widgets/Calorie_Calculator_Widget.php:126
+msgid "Calories/day to lose 1 kg per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ১ কেজি কমাতে।"
+
+#: calorie-calculator.php:118 classes/Calorie_Calculator_Shortcode.php:110
+#: widgets/Calorie_Calculator_Widget.php:127
+msgid "Calories/day to gain 0.5 kg per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ০.৫ কেজি বাড়াতে।"
+
+#: calorie-calculator.php:119 classes/Calorie_Calculator_Shortcode.php:111
+#: widgets/Calorie_Calculator_Widget.php:128
+msgid "Calories/day to gain 1 kg per week."
+msgstr "ক্যালরি/দিন - প্রতি সপ্তাহে ১ কেজি বাড়াতে।"
+
+#: calorie-calculator.php:120
+msgid "No foods to show"
+msgstr "কোন খাদ্য পাওয়া যায়নি"
+
+#: calorie-calculator.php:121
+msgid "Show"
+msgstr "দেখান"
+
+#: calorie-calculator.php:122
+msgid "Search food..."
+msgstr "খাদ্য খুঁজুন"
+
+#: calorie-calculator.php:123
+msgid "No exercises to show"
+msgstr "কোন ব্যায়াম পাওয়া যায়নি"
+
+#: calorie-calculator.php:124
+msgid "Search exercise..."
+msgstr "ব্যায়াম খুঁজুন"
+
+#: calorie-calculator.php:250
+msgid "Calorie Calculator Options"
+msgstr ""
+
+#: calorie-calculator.php:251
+msgid "Calorie Calculator"
+msgstr "ক্যালরি ক্যালকুলেটর"
+
+#: calorie-calculator.php:297
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:298
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:299
+msgid "Import/Export"
+msgstr ""
+
+#: calorie-calculator.php:300
+msgid "Shortcodes"
+msgstr ""
+
+#: calorie-calculator.php:301
+msgid "About"
+msgstr ""
+
+#: calorie-calculator.php:365 calorie-calculator.php:373
+#: templates/shortcode/shortcode-bootstrap-template.php:234
+#: templates/shortcode/shortcode-bootstrap-template.php:241
+#: templates/shortcode/shortcode-general-template.php:203
+#: templates/shortcode/shortcode-general-template.php:210
+#: templates/widget-frontend/bootstrap-template.php:228
+#: templates/widget-frontend/general-template.php:200
+msgid "Food"
+msgstr ""
+
+#: calorie-calculator.php:366 calorie-calculator.php:374
+#: templates/shortcode/shortcode-bootstrap-template.php:235
+#: templates/shortcode/shortcode-bootstrap-template.php:242
+#: templates/shortcode/shortcode-general-template.php:204
+#: templates/shortcode/shortcode-general-template.php:211
+#: templates/widget-frontend/bootstrap-template.php:229
+#: templates/widget-frontend/general-template.php:201
+msgid "Size"
+msgstr ""
+
+#: calorie-calculator.php:367 calorie-calculator.php:375
+#: templates/shortcode/shortcode-bootstrap-template.php:236
+#: templates/shortcode/shortcode-bootstrap-template.php:243
+#: templates/shortcode/shortcode-general-template.php:205
+#: templates/shortcode/shortcode-general-template.php:212
+#: templates/widget-frontend/bootstrap-template.php:230
+#: templates/widget-frontend/general-template.php:202
+msgid "Calories"
+msgstr ""
+
+#: calorie-calculator.php:368 calorie-calculator.php:376 calorie-calculator.php:434
+#: calorie-calculator.php:443
+msgid "Action"
+msgstr ""
+
+#: calorie-calculator.php:430 calorie-calculator.php:439
+#: templates/shortcode/shortcode-bootstrap-template.php:284
+#: templates/shortcode/shortcode-bootstrap-template.php:292
+#: templates/shortcode/shortcode-general-template.php:253
+#: templates/shortcode/shortcode-general-template.php:261
+#: templates/widget-frontend/bootstrap-template.php:272
+#: templates/widget-frontend/general-template.php:244
+msgid "Activity (1 hour)"
+msgstr ""
+
+#: calorie-calculator.php:431 calorie-calculator.php:440
+#: templates/shortcode/shortcode-bootstrap-template.php:285
+#: templates/shortcode/shortcode-bootstrap-template.php:293
+#: templates/shortcode/shortcode-general-template.php:254
+#: templates/shortcode/shortcode-general-template.php:262
+#: templates/widget-frontend/bootstrap-template.php:273
+#: templates/widget-frontend/general-template.php:245
+msgid "125 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:432 calorie-calculator.php:441
+#: templates/shortcode/shortcode-bootstrap-template.php:286
+#: templates/shortcode/shortcode-bootstrap-template.php:294
+#: templates/shortcode/shortcode-general-template.php:255
+#: templates/shortcode/shortcode-general-template.php:263
+#: templates/widget-frontend/bootstrap-template.php:274
+#: templates/widget-frontend/general-template.php:246
+msgid "155 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:433 calorie-calculator.php:442
+#: templates/shortcode/shortcode-bootstrap-template.php:287
+#: templates/shortcode/shortcode-bootstrap-template.php:295
+#: templates/shortcode/shortcode-general-template.php:256
+#: templates/shortcode/shortcode-general-template.php:264
+#: templates/widget-frontend/bootstrap-template.php:275
+#: templates/widget-frontend/general-template.php:247
+msgid "185 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:502
+msgid "Delete All Foods"
+msgstr ""
+
+#: calorie-calculator.php:510
+msgid "Delete All Activities"
+msgstr ""
+
+#: calorie-calculator.php:526
+msgid "Calories in different foods export/import options"
+msgstr ""
+
+#: calorie-calculator.php:561
+msgid ""
+"It seems you aren't using the correct import file. Please make sure that it's only for "
+"foods."
+msgstr ""
+
+#: calorie-calculator.php:607 calorie-calculator.php:724
+msgid "Sorry something went wrong."
+msgstr ""
+
+#: calorie-calculator.php:612
+msgid "Foods were imported successfully."
+msgstr ""
+
+#: calorie-calculator.php:679
+msgid ""
+"It seems you aren't using the correct import file. Please make sure that it's only for "
+"activities."
+msgstr ""
+
+#: calorie-calculator.php:729
+msgid "Activities were imported successfully."
+msgstr ""
+
+#: calorie-calculator.php:750
+msgid "Export Activities as CSV"
+msgstr ""
+
+#: calorie-calculator.php:758
+msgid "Import Activities"
+msgstr ""
+
+#: calorie-calculator.php:789
+msgid "Calorie in Different Foods Section"
+msgstr ""
+
+#: calorie-calculator.php:804
+msgid "Calorie Burning by Exercises Section"
+msgstr ""
+
+#: calorie-calculator.php:892
+msgctxt "calorie-in-foods general name"
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:893
+msgctxt "calorie-in-foods singular name"
+msgid "Calorie in Food"
+msgstr ""
+
+#: calorie-calculator.php:894
+msgctxt "admin menu"
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:895
+msgctxt "add new on admin bar"
+msgid "Calorie in Food"
+msgstr ""
+
+#: calorie-calculator.php:896 calorie-calculator.php:940
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: calorie-calculator.php:897 calorie-calculator.php:941
+msgid "Add New Entry"
+msgstr ""
+
+#: calorie-calculator.php:898 calorie-calculator.php:942
+msgid "New Entry"
+msgstr ""
+
+#: calorie-calculator.php:899
+msgid "Edit Food"
+msgstr ""
+
+#: calorie-calculator.php:900
+msgid "View Foods"
+msgstr ""
+
+#: calorie-calculator.php:901
+msgid "All Foods"
+msgstr ""
+
+#: calorie-calculator.php:902
+msgid "Search Foods"
+msgstr "খাদ্য খুঁজুন"
+
+#: calorie-calculator.php:903
+msgid "Parent Foods:"
+msgstr ""
+
+#: calorie-calculator.php:904
+msgid "No foods found."
+msgstr ""
+
+#: calorie-calculator.php:905
+msgid "No foods found in Trash."
+msgstr ""
+
+#: calorie-calculator.php:910
+msgid "Calorie in Foods items."
+msgstr ""
+
+#: calorie-calculator.php:936
+msgctxt "calorie-burning general name"
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:937
+msgctxt "calorie-burning singular name"
+msgid "Calorie Burning by Exercise"
+msgstr ""
+
+#: calorie-calculator.php:938
+msgctxt "admin menu"
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:939
+msgctxt "add new on admin bar"
+msgid "Calorie Burning by Exercise"
+msgstr ""
+
+#: calorie-calculator.php:943
+msgid "Edit Entry"
+msgstr ""
+
+#: calorie-calculator.php:944
+msgid "View All Entries"
+msgstr ""
+
+#: calorie-calculator.php:945
+msgid "All Entries"
+msgstr ""
+
+#: calorie-calculator.php:946
+msgid "Search Exercises"
+msgstr "ব্যায়াম খুঁজুন"
+
+#: calorie-calculator.php:947
+msgid "Parent Exercises:"
+msgstr ""
+
+#: calorie-calculator.php:948
+msgid "No Exercises found."
+msgstr ""
+
+#: calorie-calculator.php:949
+msgid "No Exercises found in Trash."
+msgstr ""
+
+#: calorie-calculator.php:954
+msgid "Calorie Burning by Exercises Items."
+msgstr ""
+
+#: calorie-calculator.php:1146
+msgid "Email has been sent successfully!"
+msgstr "সফলভাবে ইমেইল পাঠানো হয়েছে।"
+
+#: calorie-calculator.php:1150
+msgid "Sorry! Email cannot be sent at this monent!"
+msgstr "দুঃখিত! এই মুহূর্তে ইমেইল পাঠানো সম্ভব না!"
+
+#: calorie-calculator.php:1226
+msgid "Click to"
+msgstr "ক্লিক করুন"
+
+#: calorie-calculator.php:1226
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:29
+#: templates/shortcode/shortcode-bootstrap-template.php:108
+#: templates/shortcode/shortcode-general-template.php:24
+#: templates/shortcode/shortcode-general-template.php:83
+#: templates/widget-frontend/bootstrap-template.php:27
+#: templates/widget-frontend/bootstrap-template.php:103
+#: templates/widget-frontend/general-template.php:22
+#: templates/widget-frontend/general-template.php:81
+msgid "Age:"
+msgstr "বয়সঃ"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:30
+#: templates/shortcode/shortcode-bootstrap-template.php:110
+#: templates/widget-frontend/bootstrap-template.php:28
+#: templates/widget-frontend/bootstrap-template.php:104
+msgid "Age from 15 to 80 years"
+msgstr "১৫ থেকে ৮০ বছর"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:31
+#: templates/shortcode/shortcode-bootstrap-template.php:111
+#: templates/shortcode/shortcode-general-template.php:26
+#: templates/shortcode/shortcode-general-template.php:85
+#: templates/widget-frontend/bootstrap-template.php:29
+#: templates/widget-frontend/bootstrap-template.php:105
+#: templates/widget-frontend/general-template.php:24
+#: templates/widget-frontend/general-template.php:83
+msgid "28 Years"
+msgstr "২৮ বছর"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:35
+#: templates/shortcode/shortcode-bootstrap-template.php:115
+#: templates/shortcode/shortcode-general-template.php:30
+#: templates/shortcode/shortcode-general-template.php:89
+#: templates/widget-frontend/bootstrap-template.php:33
+#: templates/widget-frontend/bootstrap-template.php:109
+#: templates/widget-frontend/general-template.php:28
+#: templates/widget-frontend/general-template.php:87
+msgid "Gender:"
+msgstr "লিঙ্গঃ"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:38
+#: templates/shortcode/shortcode-bootstrap-template.php:118
+#: templates/shortcode/shortcode-general-template.php:31
+#: templates/shortcode/shortcode-general-template.php:90
+#: templates/widget-frontend/bootstrap-template.php:36
+#: templates/widget-frontend/bootstrap-template.php:112
+#: templates/widget-frontend/general-template.php:29
+#: templates/widget-frontend/general-template.php:88
+msgid "Male"
+msgstr "পুরুষ"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:41
+#: templates/shortcode/shortcode-bootstrap-template.php:121
+#: templates/shortcode/shortcode-general-template.php:31
+#: templates/shortcode/shortcode-general-template.php:90
+#: templates/widget-frontend/bootstrap-template.php:39
+#: templates/widget-frontend/bootstrap-template.php:115
+#: templates/widget-frontend/general-template.php:29
+#: templates/widget-frontend/general-template.php:88
+msgid "Female"
+msgstr "মহিলা"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:48
+#: templates/shortcode/shortcode-bootstrap-template.php:127
+#: templates/shortcode/shortcode-general-template.php:35
+#: templates/shortcode/shortcode-general-template.php:94
+#: templates/widget-frontend/bootstrap-template.php:46
+#: templates/widget-frontend/bootstrap-template.php:121
+#: templates/widget-frontend/general-template.php:33
+#: templates/widget-frontend/general-template.php:92
+msgid "Height:"
+msgstr "উচ্চতা"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:54
+#: templates/widget-frontend/bootstrap-template.php:51
+msgid "Example: 5 feet"
+msgstr "যেমন ৫ ফিট"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:55
+#: templates/shortcode/shortcode-general-template.php:38
+#: templates/widget-frontend/bootstrap-template.php:52
+#: templates/widget-frontend/general-template.php:36
+msgid "5 Feet"
+msgstr "৫ ফিট"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:60
+#: templates/widget-frontend/bootstrap-template.php:56
+msgid "Example: 8 inches"
+msgstr "যেমন ৮ ইঞ্চি"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:61
+#: templates/shortcode/shortcode-general-template.php:41
+#: templates/widget-frontend/bootstrap-template.php:57
+#: templates/widget-frontend/general-template.php:39
+msgid "8 Inch"
+msgstr "৮ ইঞ্চি"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:69
+#: templates/shortcode/shortcode-bootstrap-template.php:133
+#: templates/shortcode/shortcode-general-template.php:46
+#: templates/shortcode/shortcode-general-template.php:100
+#: templates/widget-frontend/bootstrap-template.php:65
+#: templates/widget-frontend/bootstrap-template.php:127
+#: templates/widget-frontend/general-template.php:44
+#: templates/widget-frontend/general-template.php:98
+msgid "Weight:"
+msgstr "ওজন"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:71
+#: templates/widget-frontend/bootstrap-template.php:66
+msgid "Example: 165 Pounds"
+msgstr "যেমন ১৬৫ পাউন্ড"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:72
+#: templates/shortcode/shortcode-general-template.php:48
+#: templates/widget-frontend/bootstrap-template.php:67
+#: templates/widget-frontend/general-template.php:46
+msgid "165 Pounds"
+msgstr "১৬৫ পাউন্ড"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:76
+#: templates/shortcode/shortcode-bootstrap-template.php:139
+#: templates/shortcode/shortcode-general-template.php:52
+#: templates/shortcode/shortcode-general-template.php:106
+#: templates/widget-frontend/bootstrap-template.php:71
+#: templates/widget-frontend/bootstrap-template.php:133
+#: templates/widget-frontend/general-template.php:50
+#: templates/widget-frontend/general-template.php:104
+msgid "Activity:"
+msgstr "সক্রিয়তাঃ"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:78
+#: templates/shortcode/shortcode-bootstrap-template.php:141
+#: templates/shortcode/shortcode-general-template.php:54
+#: templates/shortcode/shortcode-general-template.php:108
+#: templates/widget-frontend/bootstrap-template.php:73
+#: templates/widget-frontend/bootstrap-template.php:135
+#: templates/widget-frontend/general-template.php:52
+#: templates/widget-frontend/general-template.php:106
+msgid "Basal Metabolic Rate (BMR)"
+msgstr "মৌলিক বিপাকের হার (বিএমআর)"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:79
+#: templates/shortcode/shortcode-bootstrap-template.php:142
+#: templates/shortcode/shortcode-general-template.php:55
+#: templates/shortcode/shortcode-general-template.php:109
+#: templates/widget-frontend/bootstrap-template.php:74
+#: templates/widget-frontend/bootstrap-template.php:136
+#: templates/widget-frontend/general-template.php:53
+#: templates/widget-frontend/general-template.php:107
+msgid "Sedentary - little or no exercise"
+msgstr "কদাচিৎ সক্রিয় - খুব কম শরীরচর্চা অথবা একেবারে না"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:80
+#: templates/shortcode/shortcode-bootstrap-template.php:143
+#: templates/shortcode/shortcode-general-template.php:56
+#: templates/shortcode/shortcode-general-template.php:110
+#: templates/widget-frontend/bootstrap-template.php:75
+#: templates/widget-frontend/bootstrap-template.php:137
+#: templates/widget-frontend/general-template.php:54
+#: templates/widget-frontend/general-template.php:108
+msgid "Lightly Active - exercise/sports 1-3 times/week"
+msgstr "হালকা সক্রিয় - সপ্তাহে ১-৩ বার শরীরচর্চা"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:81
+#: templates/shortcode/shortcode-bootstrap-template.php:144
+#: templates/shortcode/shortcode-general-template.php:57
+#: templates/shortcode/shortcode-general-template.php:111
+#: templates/widget-frontend/bootstrap-template.php:76
+#: templates/widget-frontend/bootstrap-template.php:138
+#: templates/widget-frontend/general-template.php:55
+#: templates/widget-frontend/general-template.php:109
+msgid "Moderatetely Active - exercise/sports 3-5 times/week"
+msgstr "মোটামুটি সক্রিয় - সপ্তাহে ১-৩ বার শরীরচর্চা"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:82
+#: templates/shortcode/shortcode-bootstrap-template.php:145
+#: templates/shortcode/shortcode-general-template.php:58
+#: templates/shortcode/shortcode-general-template.php:112
+#: templates/widget-frontend/bootstrap-template.php:77
+#: templates/widget-frontend/bootstrap-template.php:139
+#: templates/widget-frontend/general-template.php:56
+#: templates/widget-frontend/general-template.php:110
+msgid "Very Active - hard exercise/sports 6-7 times/week"
+msgstr "বেশ সক্রিয় - সপ্তাহে ৬-৭ বার শরীরচর্চা"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:83
+#: templates/shortcode/shortcode-bootstrap-template.php:146
+#: templates/shortcode/shortcode-general-template.php:59
+#: templates/shortcode/shortcode-general-template.php:113
+#: templates/widget-frontend/bootstrap-template.php:78
+#: templates/widget-frontend/bootstrap-template.php:140
+#: templates/widget-frontend/general-template.php:57
+#: templates/widget-frontend/general-template.php:111
+msgid "Extra Active - very hard exercise/sports or physical job"
+msgstr "খুব বেশি সক্রিয় - কঠোর পরিশ্রম/খেলাধুলা শারীরিক পরিশ্রম"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:87
+#: templates/shortcode/shortcode-bootstrap-template.php:151
+#: templates/shortcode/shortcode-general-template.php:63
+#: templates/shortcode/shortcode-general-template.php:117
+#: templates/widget-frontend/bootstrap-template.php:82
+#: templates/widget-frontend/bootstrap-template.php:145
+#: templates/widget-frontend/general-template.php:61
+#: templates/widget-frontend/general-template.php:115
+msgid "Calculate"
+msgstr "হিসাব করুন"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:128
+#: templates/widget-frontend/bootstrap-template.php:122
+msgid "Example: 180 Centemeters"
+msgstr "যেমনঃ ১৮০ সেন্টিমিটার"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:129
+#: templates/shortcode/shortcode-general-template.php:96
+#: templates/widget-frontend/bootstrap-template.php:123
+#: templates/widget-frontend/general-template.php:94
+msgid "180 Centimeters"
+msgstr "১৮০ সেন্টিমিটার"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:134
+#: templates/widget-frontend/bootstrap-template.php:128
+msgid "Example: 68 Kilograms"
+msgstr "যেমনঃ ৬৮ কিলোগ্রাম"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:135
+#: templates/shortcode/shortcode-general-template.php:102
+#: templates/widget-frontend/bootstrap-template.php:129
+#: templates/widget-frontend/general-template.php:100
+msgid "68 Kilograms"
+msgstr "৬৮ কিলোগ্রাম"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:171
+#: templates/shortcode/shortcode-general-template.php:137
+#: templates/widget-frontend/bootstrap-template.php:165
+#: templates/widget-frontend/general-template.php:135
+msgid "Send to Email"
+msgstr "ইমেইলে পাঠান"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:183
+#: templates/shortcode/shortcode-general-template.php:149
+#: templates/widget-frontend/bootstrap-template.php:177
+#: templates/widget-frontend/general-template.php:147
+msgid "Your email address, please"
+msgstr "দয়া করে আপনার ইমেইল অ্যাড্রেস দিন"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:210
+#: templates/shortcode/shortcode-general-template.php:176
+#: templates/widget-frontend/bootstrap-template.php:203
+#: templates/widget-frontend/general-template.php:174
+msgid "Enter Captcha Here"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:213
+#: templates/shortcode/shortcode-general-template.php:179
+#: templates/widget-frontend/bootstrap-template.php:206
+#: templates/widget-frontend/general-template.php:177
+msgid "Download Now!"
+msgstr "ডাউনলোড করুন!"
+
+#: templates/shortcode/shortcode-bootstrap-template.php:228
+#: templates/shortcode/shortcode-general-template.php:197
+#: templates/widget-frontend/bootstrap-template.php:222
+#: templates/widget-frontend/general-template.php:194
+msgid "Calories in Different Foods"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:277
+#: templates/shortcode/shortcode-general-template.php:246
+#: templates/widget-frontend/bootstrap-template.php:265
+#: templates/widget-frontend/general-template.php:237
+msgid "Calorie Buring Rate of Common Exercises"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:279
+#: templates/widget-frontend/bootstrap-template.php:267
+#: templates/widget-frontend/general-template.php:239
+msgid ""
+"* The following are the hourly calorie burning rates of common exercises in normal "
+"intensity. Intensity has very significant impact on the calorie burning rate."
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:7
+#: templates/widget-frontend/general-template.php:5
+#: widgets/Calorie_Calculator_Widget.php:204
+msgid "US Units"
+msgstr "ইউএস একক"
+
+#: templates/shortcode/shortcode-general-template.php:8
+#: templates/widget-frontend/general-template.php:6
+#: widgets/Calorie_Calculator_Widget.php:207
+msgid "Metric Units"
+msgstr "মেট্রিক্স একক"
+
+#: templates/shortcode/shortcode-general-template.php:172
+#: templates/widget-frontend/bootstrap-template.php:199
+#: templates/widget-frontend/general-template.php:170
+msgid "Problem? "
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:172
+#: templates/widget-frontend/bootstrap-template.php:199
+#: templates/widget-frontend/general-template.php:170
+msgid "Try Another"
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:199
+#: templates/widget-frontend/bootstrap-template.php:224
+#: templates/widget-frontend/general-template.php:196
+msgid "* 1 cup = ~250 milliliters, 1 table spoon = 14.2 gram"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: widgets/Calorie_Calculator_Widget.php:25 widgets/Calorie_Calculator_Widget.php:177
+msgid "Calorie Calculator Pro"
+msgstr "ক্যালরি ক্যালকুলেটর প্রো"
+
+#: widgets/Calorie_Calculator_Widget.php:26
+msgid ""
+"The Calorie Calculator can be used to estimate the amount of calories you need to "
+"consume a day to maintain or improve your health condition."
+msgstr ""
+"আপনার স্বাস্থ্যের বর্তমান অবস্থা ধরে রাখতে অথবা উন্নত করতে দিনে আপনার কত ক্যালরির খাবার গ্রহণ "
+"করতে হবে তা নির্ণয়ে ক্যালরি ক্যালকুলেটর আপনাকে সাহায্য করতে পারে।"
+
+#: widgets/Calorie_Calculator_Widget.php:189
+msgid "Title:"
+msgstr "শিরোনামঃ"
+
+#: widgets/Calorie_Calculator_Widget.php:196
+msgid "Select Unit:"
+msgstr "একক বাছাই করুনঃ"
+
+#: widgets/Calorie_Calculator_Widget.php:201
+msgid "Both US and Metric Units"
+msgstr "ইউএস এবং মেট্রিক্স একক দুইটাই"
+
+#: widgets/Calorie_Calculator_Widget.php:219
+msgid "Enable \"<b>Twitter Bootstrap</b>\" Styling, if your theme supports Bootstrap."
+msgstr ""
+"যদি আপনার থিম টুইটার বুটস্ট্রাপ সাপোর্ট করে তবে ‘টুইটার বুটস্ট্রাপ’ স্টাইলিং চালু করতে পারেন।"
+
+#: widgets/Calorie_Calculator_Widget.php:220
+msgid ""
+"(Default '<b>Calorie Calculator</b>' styling will be applied if this field isn't "
+"checked)"
+msgstr "(তাছাড়া ডিফল্ট স্টাইল ব্যাবহৃিত হবে)"
+
+#: widgets/Calorie_Calculator_Widget.php:229
+msgid "Show \"<b>Send to Email</b>\" Button to allow user get the result via email."
+msgstr "“ইমেইলে পাঠান” বাটন দেখান"
+
+#: widgets/Calorie_Calculator_Widget.php:239
+msgid ""
+"Show \"<b>Download as PDF</b>\" Button to allow user download the result as a PDF file."
+msgstr "“পিডিএফ হিসেবে ডাউনলোড” বাটন দেখান"
+
+#: widgets/Calorie_Calculator_Widget.php:249
+msgid "Show a table of <b>calories in common foods</b> after this calculator"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:250 widgets/Calorie_Calculator_Widget.php:261
+msgid ""
+"(Your website sidebar should be wide enough to display this table. Consider enabling "
+"it only if this widget is put in a wider place like footer widget or something else.)"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:260
+msgid ""
+"Show a table of <b>calore burning rates</b> by common exercises after this calculator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://zubaer.com/wordpress/calorie-calculator-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Calorie Calculator can be used to estimate the calories you need to consume each "
+"day. This calculator can also provide some simple guideline if you want to gain or "
+"lose weight. Use the \"metric units\" tab if you are more comfortable with the "
+"international standard metric units."
+msgstr ""
+"আপনার স্বাস্থ্যের বর্তমান অবস্থা ধরে রাখতে অথবা উন্নত করতে দিনে আপনার কত ক্যালরির খাবার গ্রহণ "
+"করতে হবে তা নির্ণয়ে ক্যালরি ক্যালকুলেটর আপনাকে সাহায্য করতে পারে। ইন্টারন্যাশনাল পরিমাপে "
+"অসুবিধা হলে মেট্রিক্স ইউনিট ব্যাবহার করতে পারেন।"
+
+#. Author of the plugin/theme
+msgid "Md. Zubaer Ahammed"
+msgstr "মোঃ জুবায়ের আহম্মেদ"
+
+#. Author URI of the plugin/theme
+msgid "http://zubaer.com"
+msgstr ""

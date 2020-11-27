@@ -1,0 +1,76 @@
+/**
+ * General CSS
+ */
+.img-center {
+    margin: 0 auto;
+}
+
+.calorie_calculator_metric_show_errors .calorie_calculator_show_errors, .calorie_calculator_us_show_errors .calorie_calculator_show_errors{
+    color: #a94442;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+p.calorie_calculator_single_result {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    padding: 0.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+p.calorie_calculator_single_result:last-child {
+    border-bottom: none;
+}
+
+.calorie_calculator_result p.calorie_calculator_single_result {
+    margin-bottom: 0;
+}
+
+.calorie_calculator_single_result.green .bmr_val {
+    color: rgb(0, 128, 0);
+}
+
+div.calorie_calculator_result {
+    margin-top: 0.8em;
+}
+
+.calorie_calculator_bootstrap div.download_as_pdf_status {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+/* DataTable Chart */
+.calorie_calculator_chart .calorie_calculator_chart_heading {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+p.calorie_calculator_head_note {
+    font-style: italic;
+}
+.calorie_calculator_chart .dataTables_paginate .paginate_button.next:before {
+    display: none;
+}
+.calorie_calculator_chart .dataTables_paginate .paginate_button.next {
+    background: none;
+    height: initial;
+    width: initial;
+    position: relative;
+}
+.calorie_calculator_chart div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    box-shadow: none;
+    border-top: 0;
+}
+.calorie_calculator_chart .dataTables_paginate li.paginate_button a:hover {
+    border-bottom: 1px solid #ddd;
+}
+.pagination .next {
+    right: initial;
+}
+.calorie_calculator_bootstrap .pagination:before, .calorie_calculator_bootstrap .pagination:after {
+    display: none;
+}
+.calorie_calculator_chart div.dataTables_wrapper div.dataTables_paginate ul.pagination li a {
+    box-shadow: none;
+}

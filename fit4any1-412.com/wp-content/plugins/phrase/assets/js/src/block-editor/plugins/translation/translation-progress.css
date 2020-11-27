@@ -1,0 +1,23 @@
+.phrase-translation-progress__table {
+	&-column--title {
+		text-align: left;
+		width: 139px;
+	}
+}
+
+.phrase-pull-push-translation {
+	flex-wrap: wrap;
+
+	.components-button {
+		margin-bottom: 8px;
+	}
+}
+
+.phrase-locale-name-with-flag {
+	display: flex;
+	align-items: center;
+
+	.phrase-locale-name {
+		margin-left: 3px;
+	}
+}

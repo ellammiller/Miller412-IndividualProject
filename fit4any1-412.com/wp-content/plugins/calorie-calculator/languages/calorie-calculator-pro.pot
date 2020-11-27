@@ -1,0 +1,858 @@
+# Copyright (C) 2017 Calorie Calculator Pro
+# This file is distributed under the same license as the Calorie Calculator Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Calorie Calculator Pro 3.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/calorie-"
+"calculator-pro\n"
+"POT-Creation-Date: 2017-10-17 19:24:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: calorie-calculator.php:100 classes/Calorie_Calculator_Shortcode.php:94
+#: widgets/Calorie_Calculator_Widget.php:109
+msgid "Sending Email..."
+msgstr ""
+
+#: calorie-calculator.php:101 classes/Calorie_Calculator_Shortcode.php:95
+#: templates/shortcode/shortcode-bootstrap-template.php:222
+#: templates/shortcode/shortcode-general-template.php:184
+#: templates/widget-frontend/bootstrap-template.php:211
+#: templates/widget-frontend/general-template.php:182
+#: widgets/Calorie_Calculator_Widget.php:110
+msgid "Send me an Email!"
+msgstr ""
+
+#: calorie-calculator.php:102 classes/Calorie_Calculator_Shortcode.php:96
+#: widgets/Calorie_Calculator_Widget.php:111
+msgid "Sorry! Email cannot be sent right now!"
+msgstr ""
+
+#: calorie-calculator.php:103 classes/Calorie_Calculator_Shortcode.php:97
+#: widgets/Calorie_Calculator_Widget.php:112
+msgid "Downloading..."
+msgstr ""
+
+#: calorie-calculator.php:104 classes/Calorie_Calculator_Shortcode.php:98
+#: widgets/Calorie_Calculator_Widget.php:113
+msgid "Processing download..."
+msgstr ""
+
+#: calorie-calculator.php:105 classes/Calorie_Calculator_Shortcode.php:99
+#: templates/shortcode/shortcode-bootstrap-template.php:233
+#: templates/shortcode/shortcode-general-template.php:194
+#: templates/widget-frontend/bootstrap-template.php:221
+#: templates/widget-frontend/general-template.php:192
+#: widgets/Calorie_Calculator_Widget.php:114
+msgid "Download as PDF"
+msgstr ""
+
+#: calorie-calculator.php:106 classes/Calorie_Calculator_Shortcode.php:100
+#: widgets/Calorie_Calculator_Widget.php:115
+msgid "Sorry! Something went wrong!"
+msgstr ""
+
+#: calorie-calculator.php:107 classes/Calorie_Calculator_Shortcode.php:101
+#: widgets/Calorie_Calculator_Widget.php:116
+msgid "Please Fill up all of the fields!"
+msgstr ""
+
+#: calorie-calculator.php:108 classes/Calorie_Calculator_Shortcode.php:102
+#: widgets/Calorie_Calculator_Widget.php:117
+msgid "BMR"
+msgstr ""
+
+#: calorie-calculator.php:109 classes/Calorie_Calculator_Shortcode.php:103
+#: widgets/Calorie_Calculator_Widget.php:118
+msgid "Calories/day"
+msgstr ""
+
+#: calorie-calculator.php:110 classes/Calorie_Calculator_Shortcode.php:104
+#: widgets/Calorie_Calculator_Widget.php:119
+msgid "You need"
+msgstr ""
+
+#: calorie-calculator.php:111 classes/Calorie_Calculator_Shortcode.php:105
+#: widgets/Calorie_Calculator_Widget.php:120
+msgid "Calories/day to maintain your weight."
+msgstr ""
+
+#: calorie-calculator.php:112 classes/Calorie_Calculator_Shortcode.php:106
+#: widgets/Calorie_Calculator_Widget.php:121
+msgid "Calories/day to lose 1 lb per week."
+msgstr ""
+
+#: calorie-calculator.php:113 classes/Calorie_Calculator_Shortcode.php:107
+#: widgets/Calorie_Calculator_Widget.php:122
+msgid "Calories/day to lose 2 lb per week."
+msgstr ""
+
+#: calorie-calculator.php:114 classes/Calorie_Calculator_Shortcode.php:108
+#: widgets/Calorie_Calculator_Widget.php:123
+msgid "Calories/day to gain 1 lb per week."
+msgstr ""
+
+#: calorie-calculator.php:115 classes/Calorie_Calculator_Shortcode.php:109
+#: widgets/Calorie_Calculator_Widget.php:124
+msgid "Calories/day to gain 2 lb per week."
+msgstr ""
+
+#: calorie-calculator.php:116 classes/Calorie_Calculator_Shortcode.php:110
+#: widgets/Calorie_Calculator_Widget.php:125
+msgid "Calories/day to lose 0.5 kg per week."
+msgstr ""
+
+#: calorie-calculator.php:117 classes/Calorie_Calculator_Shortcode.php:111
+#: widgets/Calorie_Calculator_Widget.php:126
+msgid "Calories/day to lose 1 kg per week."
+msgstr ""
+
+#: calorie-calculator.php:118 classes/Calorie_Calculator_Shortcode.php:112
+#: widgets/Calorie_Calculator_Widget.php:127
+msgid "Calories/day to gain 0.5 kg per week."
+msgstr ""
+
+#: calorie-calculator.php:119 classes/Calorie_Calculator_Shortcode.php:113
+#: widgets/Calorie_Calculator_Widget.php:128
+msgid "Calories/day to gain 1 kg per week."
+msgstr ""
+
+#: calorie-calculator.php:120 classes/Calorie_Calculator_Shortcode.php:114
+#: widgets/Calorie_Calculator_Widget.php:129
+msgid "No foods to show"
+msgstr ""
+
+#: calorie-calculator.php:121 classes/Calorie_Calculator_Shortcode.php:115
+#: widgets/Calorie_Calculator_Widget.php:130
+msgid "Show"
+msgstr ""
+
+#: calorie-calculator.php:122 classes/Calorie_Calculator_Shortcode.php:116
+#: widgets/Calorie_Calculator_Widget.php:131
+msgid "Search food..."
+msgstr ""
+
+#: calorie-calculator.php:123 classes/Calorie_Calculator_Shortcode.php:117
+#: widgets/Calorie_Calculator_Widget.php:132
+msgid "No exercises to show"
+msgstr ""
+
+#: calorie-calculator.php:124 classes/Calorie_Calculator_Shortcode.php:118
+#: widgets/Calorie_Calculator_Widget.php:133
+msgid "Search exercise..."
+msgstr ""
+
+#: calorie-calculator.php:250
+msgid "Calorie Calculator Options"
+msgstr ""
+
+#: calorie-calculator.php:251
+msgid "Calorie Calculator"
+msgstr ""
+
+#: calorie-calculator.php:297
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:298
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:299
+msgid "Import/Export"
+msgstr ""
+
+#: calorie-calculator.php:300
+msgid "Shortcodes"
+msgstr ""
+
+#: calorie-calculator.php:301
+msgid "About"
+msgstr ""
+
+#: calorie-calculator.php:366 calorie-calculator.php:374
+#: templates/shortcode/shortcode-bootstrap-template.php:272
+#: templates/shortcode/shortcode-bootstrap-template.php:279
+#: templates/shortcode/shortcode-general-template.php:238
+#: templates/shortcode/shortcode-general-template.php:245
+#: templates/widget-frontend/bootstrap-template.php:259
+#: templates/widget-frontend/general-template.php:232
+msgid "Food"
+msgstr ""
+
+#: calorie-calculator.php:367 calorie-calculator.php:375
+#: templates/shortcode/shortcode-bootstrap-template.php:273
+#: templates/shortcode/shortcode-bootstrap-template.php:280
+#: templates/shortcode/shortcode-general-template.php:239
+#: templates/shortcode/shortcode-general-template.php:246
+#: templates/widget-frontend/bootstrap-template.php:260
+#: templates/widget-frontend/general-template.php:233
+msgid "Size"
+msgstr ""
+
+#: calorie-calculator.php:368 calorie-calculator.php:376
+#: templates/shortcode/shortcode-bootstrap-template.php:274
+#: templates/shortcode/shortcode-bootstrap-template.php:281
+#: templates/shortcode/shortcode-general-template.php:240
+#: templates/shortcode/shortcode-general-template.php:247
+#: templates/widget-frontend/bootstrap-template.php:261
+#: templates/widget-frontend/general-template.php:234
+msgid "Calories"
+msgstr ""
+
+#: calorie-calculator.php:369 calorie-calculator.php:377
+#: calorie-calculator.php:435 calorie-calculator.php:444
+msgid "Action"
+msgstr ""
+
+#: calorie-calculator.php:431 calorie-calculator.php:440
+#: templates/shortcode/shortcode-bootstrap-template.php:322
+#: templates/shortcode/shortcode-bootstrap-template.php:330
+#: templates/shortcode/shortcode-general-template.php:288
+#: templates/shortcode/shortcode-general-template.php:296
+#: templates/widget-frontend/bootstrap-template.php:303
+#: templates/widget-frontend/general-template.php:276
+msgid "Activity (1 hour)"
+msgstr ""
+
+#: calorie-calculator.php:432 calorie-calculator.php:441
+#: templates/shortcode/shortcode-bootstrap-template.php:323
+#: templates/shortcode/shortcode-bootstrap-template.php:331
+#: templates/shortcode/shortcode-general-template.php:289
+#: templates/shortcode/shortcode-general-template.php:297
+#: templates/widget-frontend/bootstrap-template.php:304
+#: templates/widget-frontend/general-template.php:277
+msgid "125 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:433 calorie-calculator.php:442
+#: templates/shortcode/shortcode-bootstrap-template.php:324
+#: templates/shortcode/shortcode-bootstrap-template.php:332
+#: templates/shortcode/shortcode-general-template.php:290
+#: templates/shortcode/shortcode-general-template.php:298
+#: templates/widget-frontend/bootstrap-template.php:305
+#: templates/widget-frontend/general-template.php:278
+msgid "155 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:434 calorie-calculator.php:443
+#: templates/shortcode/shortcode-bootstrap-template.php:325
+#: templates/shortcode/shortcode-bootstrap-template.php:333
+#: templates/shortcode/shortcode-general-template.php:291
+#: templates/shortcode/shortcode-general-template.php:299
+#: templates/widget-frontend/bootstrap-template.php:306
+#: templates/widget-frontend/general-template.php:279
+msgid "185 lbs person"
+msgstr ""
+
+#: calorie-calculator.php:503
+msgid "Delete All Foods"
+msgstr ""
+
+#: calorie-calculator.php:511
+msgid "Delete All Activities"
+msgstr ""
+
+#: calorie-calculator.php:527
+msgid "Calories in different foods export/import options"
+msgstr ""
+
+#: calorie-calculator.php:562
+msgid ""
+"It seems you aren't using the correct import file. Please make sure that "
+"it's only for foods."
+msgstr ""
+
+#: calorie-calculator.php:608 calorie-calculator.php:725
+msgid "Sorry something went wrong."
+msgstr ""
+
+#: calorie-calculator.php:613
+msgid "Foods were imported successfully."
+msgstr ""
+
+#: calorie-calculator.php:680
+msgid ""
+"It seems you aren't using the correct import file. Please make sure that "
+"it's only for activities."
+msgstr ""
+
+#: calorie-calculator.php:730
+msgid "Activities were imported successfully."
+msgstr ""
+
+#: calorie-calculator.php:751
+msgid "Export Activities as CSV"
+msgstr ""
+
+#: calorie-calculator.php:759
+msgid "Import Activities"
+msgstr ""
+
+#: calorie-calculator.php:790
+msgid "Calorie in Different Foods Section"
+msgstr ""
+
+#: calorie-calculator.php:805
+msgid "Calorie Burning by Exercises Section"
+msgstr ""
+
+#: calorie-calculator.php:893
+msgctxt "calorie-in-foods general name"
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:894
+msgctxt "calorie-in-foods singular name"
+msgid "Calorie in Food"
+msgstr ""
+
+#: calorie-calculator.php:895
+msgctxt "admin menu"
+msgid "Calorie in Foods"
+msgstr ""
+
+#: calorie-calculator.php:896
+msgctxt "add new on admin bar"
+msgid "Calorie in Food"
+msgstr ""
+
+#: calorie-calculator.php:897 calorie-calculator.php:941
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: calorie-calculator.php:898 calorie-calculator.php:942
+msgid "Add New Entry"
+msgstr ""
+
+#: calorie-calculator.php:899 calorie-calculator.php:943
+msgid "New Entry"
+msgstr ""
+
+#: calorie-calculator.php:900
+msgid "Edit Food"
+msgstr ""
+
+#: calorie-calculator.php:901
+msgid "View Foods"
+msgstr ""
+
+#: calorie-calculator.php:902
+msgid "All Foods"
+msgstr ""
+
+#: calorie-calculator.php:903
+msgid "Search Foods"
+msgstr ""
+
+#: calorie-calculator.php:904
+msgid "Parent Foods:"
+msgstr ""
+
+#: calorie-calculator.php:905
+msgid "No foods found."
+msgstr ""
+
+#: calorie-calculator.php:906
+msgid "No foods found in Trash."
+msgstr ""
+
+#: calorie-calculator.php:911
+msgid "Calorie in Foods items."
+msgstr ""
+
+#: calorie-calculator.php:937
+msgctxt "calorie-burning general name"
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:938
+msgctxt "calorie-burning singular name"
+msgid "Calorie Burning by Exercise"
+msgstr ""
+
+#: calorie-calculator.php:939
+msgctxt "admin menu"
+msgid "Calorie Burning by Exercises"
+msgstr ""
+
+#: calorie-calculator.php:940
+msgctxt "add new on admin bar"
+msgid "Calorie Burning by Exercise"
+msgstr ""
+
+#: calorie-calculator.php:944
+msgid "Edit Entry"
+msgstr ""
+
+#: calorie-calculator.php:945
+msgid "View All Entries"
+msgstr ""
+
+#: calorie-calculator.php:946
+msgid "All Entries"
+msgstr ""
+
+#: calorie-calculator.php:947
+msgid "Search Exercises"
+msgstr ""
+
+#: calorie-calculator.php:948
+msgid "Parent Exercises:"
+msgstr ""
+
+#: calorie-calculator.php:949
+msgid "No Exercises found."
+msgstr ""
+
+#: calorie-calculator.php:950
+msgid "No Exercises found in Trash."
+msgstr ""
+
+#: calorie-calculator.php:955
+msgid "Calorie Burning by Exercises Items."
+msgstr ""
+
+#: calorie-calculator.php:1191
+msgid "Email has been sent successfully!"
+msgstr ""
+
+#: calorie-calculator.php:1195
+msgid "Sorry! Email cannot be sent at this monent!"
+msgstr ""
+
+#: calorie-calculator.php:1271
+msgid "Click to"
+msgstr ""
+
+#: calorie-calculator.php:1271
+msgid "Download"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:31
+#: templates/shortcode/shortcode-bootstrap-template.php:128
+#: templates/shortcode/shortcode-general-template.php:25
+#: templates/shortcode/shortcode-general-template.php:99
+#: templates/widget-frontend/bootstrap-template.php:27
+#: templates/widget-frontend/bootstrap-template.php:118
+#: templates/widget-frontend/general-template.php:22
+#: templates/widget-frontend/general-template.php:98
+msgid "Age:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:32
+#: templates/shortcode/shortcode-bootstrap-template.php:130
+#: templates/widget-frontend/bootstrap-template.php:28
+#: templates/widget-frontend/bootstrap-template.php:119
+msgid "Age from 15 to 80 years"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:33
+#: templates/shortcode/shortcode-bootstrap-template.php:131
+#: templates/shortcode/shortcode-general-template.php:27
+#: templates/shortcode/shortcode-general-template.php:101
+#: templates/widget-frontend/bootstrap-template.php:29
+#: templates/widget-frontend/bootstrap-template.php:120
+#: templates/widget-frontend/general-template.php:24
+#: templates/widget-frontend/general-template.php:100
+msgid "28 Years"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:37
+#: templates/shortcode/shortcode-bootstrap-template.php:135
+#: templates/shortcode/shortcode-general-template.php:31
+#: templates/shortcode/shortcode-general-template.php:105
+#: templates/widget-frontend/bootstrap-template.php:33
+#: templates/widget-frontend/bootstrap-template.php:124
+#: templates/widget-frontend/general-template.php:28
+#: templates/widget-frontend/general-template.php:104
+msgid "Gender:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:40
+#: templates/shortcode/shortcode-bootstrap-template.php:138
+#: templates/shortcode/shortcode-general-template.php:32
+#: templates/shortcode/shortcode-general-template.php:106
+#: templates/widget-frontend/bootstrap-template.php:36
+#: templates/widget-frontend/bootstrap-template.php:127
+#: templates/widget-frontend/general-template.php:29
+#: templates/widget-frontend/general-template.php:105
+msgid "Male"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:43
+#: templates/shortcode/shortcode-bootstrap-template.php:141
+#: templates/shortcode/shortcode-general-template.php:32
+#: templates/shortcode/shortcode-general-template.php:106
+#: templates/widget-frontend/bootstrap-template.php:39
+#: templates/widget-frontend/bootstrap-template.php:130
+#: templates/widget-frontend/general-template.php:29
+#: templates/widget-frontend/general-template.php:105
+msgid "Female"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:50
+#: templates/shortcode/shortcode-bootstrap-template.php:147
+#: templates/shortcode/shortcode-general-template.php:36
+#: templates/shortcode/shortcode-general-template.php:110
+#: templates/widget-frontend/bootstrap-template.php:46
+#: templates/widget-frontend/bootstrap-template.php:136
+#: templates/widget-frontend/general-template.php:33
+#: templates/widget-frontend/general-template.php:109
+msgid "Height:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:56
+#: templates/widget-frontend/bootstrap-template.php:51
+msgid "Example: 5 feet"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:57
+#: templates/shortcode/shortcode-general-template.php:39
+#: templates/widget-frontend/bootstrap-template.php:52
+#: templates/widget-frontend/general-template.php:36
+msgid "5 Feet"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:62
+#: templates/widget-frontend/bootstrap-template.php:56
+msgid "Example: 8 inches"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:63
+#: templates/shortcode/shortcode-general-template.php:42
+#: templates/widget-frontend/bootstrap-template.php:57
+#: templates/widget-frontend/general-template.php:39
+msgid "8 Inch"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:71
+#: templates/shortcode/shortcode-bootstrap-template.php:153
+#: templates/shortcode/shortcode-general-template.php:47
+#: templates/shortcode/shortcode-general-template.php:116
+#: templates/widget-frontend/bootstrap-template.php:65
+#: templates/widget-frontend/bootstrap-template.php:142
+#: templates/widget-frontend/general-template.php:44
+#: templates/widget-frontend/general-template.php:115
+msgid "Weight:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:73
+#: templates/widget-frontend/bootstrap-template.php:66
+msgid "Example: 165 Pounds"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:74
+#: templates/shortcode/shortcode-general-template.php:49
+#: templates/widget-frontend/bootstrap-template.php:67
+#: templates/widget-frontend/general-template.php:46
+msgid "165 Pounds"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:78
+#: templates/shortcode/shortcode-bootstrap-template.php:159
+#: templates/shortcode/shortcode-general-template.php:53
+#: templates/shortcode/shortcode-general-template.php:122
+#: templates/widget-frontend/bootstrap-template.php:71
+#: templates/widget-frontend/bootstrap-template.php:148
+#: templates/widget-frontend/general-template.php:50
+#: templates/widget-frontend/general-template.php:121
+msgid "Activity:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:80
+#: templates/shortcode/shortcode-bootstrap-template.php:161
+#: templates/shortcode/shortcode-general-template.php:55
+#: templates/shortcode/shortcode-general-template.php:124
+#: templates/widget-frontend/bootstrap-template.php:73
+#: templates/widget-frontend/bootstrap-template.php:150
+#: templates/widget-frontend/general-template.php:52
+#: templates/widget-frontend/general-template.php:123
+msgid "Basal Metabolic Rate (BMR)"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:81
+#: templates/shortcode/shortcode-bootstrap-template.php:162
+#: templates/shortcode/shortcode-general-template.php:56
+#: templates/shortcode/shortcode-general-template.php:125
+#: templates/widget-frontend/bootstrap-template.php:74
+#: templates/widget-frontend/bootstrap-template.php:151
+#: templates/widget-frontend/general-template.php:53
+#: templates/widget-frontend/general-template.php:124
+msgid "Sedentary - little or no exercise"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:82
+#: templates/shortcode/shortcode-bootstrap-template.php:163
+#: templates/shortcode/shortcode-general-template.php:57
+#: templates/shortcode/shortcode-general-template.php:126
+#: templates/widget-frontend/bootstrap-template.php:75
+#: templates/widget-frontend/bootstrap-template.php:152
+#: templates/widget-frontend/general-template.php:54
+#: templates/widget-frontend/general-template.php:125
+msgid "Lightly Active - exercise/sports 1-3 times/week"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:83
+#: templates/shortcode/shortcode-bootstrap-template.php:164
+#: templates/shortcode/shortcode-general-template.php:58
+#: templates/shortcode/shortcode-general-template.php:127
+#: templates/widget-frontend/bootstrap-template.php:76
+#: templates/widget-frontend/bootstrap-template.php:153
+#: templates/widget-frontend/general-template.php:55
+#: templates/widget-frontend/general-template.php:126
+msgid "Moderatetely Active - exercise/sports 3-5 times/week"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:84
+#: templates/shortcode/shortcode-bootstrap-template.php:165
+#: templates/shortcode/shortcode-general-template.php:59
+#: templates/shortcode/shortcode-general-template.php:128
+#: templates/widget-frontend/bootstrap-template.php:77
+#: templates/widget-frontend/bootstrap-template.php:154
+#: templates/widget-frontend/general-template.php:56
+#: templates/widget-frontend/general-template.php:127
+msgid "Very Active - hard exercise/sports 6-7 times/week"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:85
+#: templates/shortcode/shortcode-bootstrap-template.php:166
+#: templates/shortcode/shortcode-general-template.php:60
+#: templates/shortcode/shortcode-general-template.php:129
+#: templates/widget-frontend/bootstrap-template.php:78
+#: templates/widget-frontend/bootstrap-template.php:155
+#: templates/widget-frontend/general-template.php:57
+#: templates/widget-frontend/general-template.php:128
+msgid "Extra Active - very hard exercise/sports or physical job"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:99
+#: templates/shortcode/shortcode-bootstrap-template.php:179
+#: templates/shortcode/shortcode-general-template.php:72
+#: templates/shortcode/shortcode-general-template.php:142
+#: templates/widget-frontend/bootstrap-template.php:90
+#: templates/widget-frontend/bootstrap-template.php:169
+#: templates/widget-frontend/general-template.php:71
+#: templates/widget-frontend/general-template.php:140
+msgid "Your Email Address:"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:107
+#: templates/shortcode/shortcode-bootstrap-template.php:187
+#: templates/shortcode/shortcode-general-template.php:79
+#: templates/shortcode/shortcode-general-template.php:149
+#: templates/widget-frontend/bootstrap-template.php:97
+#: templates/widget-frontend/bootstrap-template.php:176
+#: templates/widget-frontend/general-template.php:78
+#: templates/widget-frontend/general-template.php:147
+msgid "Calculate"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:148
+#: templates/widget-frontend/bootstrap-template.php:137
+msgid "Example: 180 Centemeters"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:149
+#: templates/shortcode/shortcode-general-template.php:112
+#: templates/widget-frontend/bootstrap-template.php:138
+#: templates/widget-frontend/general-template.php:111
+msgid "180 Centimeters"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:154
+#: templates/widget-frontend/bootstrap-template.php:143
+msgid "Example: 68 Kilograms"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:155
+#: templates/shortcode/shortcode-general-template.php:118
+#: templates/widget-frontend/bootstrap-template.php:144
+#: templates/widget-frontend/general-template.php:117
+msgid "68 Kilograms"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:207
+#: templates/shortcode/shortcode-general-template.php:169
+#: templates/widget-frontend/bootstrap-template.php:196
+#: templates/widget-frontend/general-template.php:167
+msgid "Send to Email"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:219
+#: templates/shortcode/shortcode-general-template.php:181
+#: templates/widget-frontend/bootstrap-template.php:208
+#: templates/widget-frontend/general-template.php:179
+msgid "Your email address, please"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:246
+#: templates/shortcode/shortcode-general-template.php:208
+#: templates/widget-frontend/bootstrap-template.php:234
+#: templates/widget-frontend/general-template.php:206
+msgid "Enter Captcha Here"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:249
+#: templates/shortcode/shortcode-general-template.php:211
+#: templates/widget-frontend/bootstrap-template.php:237
+#: templates/widget-frontend/general-template.php:209
+msgid "Download Now!"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:266
+#: templates/shortcode/shortcode-general-template.php:232
+#: templates/widget-frontend/bootstrap-template.php:253
+#: templates/widget-frontend/general-template.php:226
+msgid "Calories in Different Foods"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:268
+#: templates/shortcode/shortcode-general-template.php:234
+#: templates/widget-frontend/bootstrap-template.php:255
+#: templates/widget-frontend/general-template.php:228
+msgid "* 1 cup = ~250 milliliters, 1 table spoon = 14.2 gram"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:315
+#: templates/shortcode/shortcode-general-template.php:281
+#: templates/widget-frontend/bootstrap-template.php:296
+#: templates/widget-frontend/general-template.php:269
+msgid "Calorie Buring Rate of Common Exercises"
+msgstr ""
+
+#: templates/shortcode/shortcode-bootstrap-template.php:317
+#: templates/shortcode/shortcode-general-template.php:283
+#: templates/widget-frontend/bootstrap-template.php:298
+#: templates/widget-frontend/general-template.php:271
+msgid ""
+"* The following are the hourly calorie burning rates of common exercises in "
+"normal intensity. Intensity has very significant impact on the calorie "
+"burning rate."
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:8
+#: templates/widget-frontend/general-template.php:5
+#: widgets/Calorie_Calculator_Widget.php:217
+msgid "US Units"
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:9
+#: templates/widget-frontend/general-template.php:6
+#: widgets/Calorie_Calculator_Widget.php:220
+msgid "Metric Units"
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:204
+#: templates/widget-frontend/bootstrap-template.php:230
+#: templates/widget-frontend/general-template.php:202
+msgid "Problem? "
+msgstr ""
+
+#: templates/shortcode/shortcode-general-template.php:204
+#: templates/widget-frontend/bootstrap-template.php:230
+#: templates/widget-frontend/general-template.php:202
+msgid "Try Another"
+msgstr ""
+
+#. #-#-#-#-#  calorie-calculator-pro.pot (Calorie Calculator Pro 3.0.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: widgets/Calorie_Calculator_Widget.php:25
+#: widgets/Calorie_Calculator_Widget.php:184
+msgid "Calorie Calculator Pro"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:26
+msgid ""
+"The Calorie Calculator can be used to estimate the amount of calories you "
+"need to consume a day to maintain or improve your health condition."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:202
+msgid "Title:"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:209
+msgid "Select Unit:"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:214
+msgid "Both US and Metric Units"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:232
+msgid ""
+"Enable \"<b>Twitter Bootstrap</b>\" Styling, if your theme supports "
+"Bootstrap."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:233
+msgid ""
+"(Default '<b>Calorie Calculator</b>' styling will be applied if this field "
+"isn't checked)"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:241
+msgid ""
+"Show \"<b>Email Field</b>\" so that user can provide his/her email address."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:242
+msgid ""
+"This is a required field, if you want to save form submissions to the "
+"database or add user to a Mailchimp list."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:251
+msgid ""
+"Show \"<b>Send to Email</b>\" Button to allow user get the result via email."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:261
+msgid ""
+"Show \"<b>Download as PDF</b>\" Button to allow user download the result as "
+"a PDF file."
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:271
+msgid "Show a table of <b>calories in common foods</b> after this calculator"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:272
+#: widgets/Calorie_Calculator_Widget.php:283
+msgid ""
+"(Your website sidebar should be wide enough to display this table. Consider "
+"enabling it only if this widget is put in a wider place like footer widget "
+"or something else.)"
+msgstr ""
+
+#: widgets/Calorie_Calculator_Widget.php:282
+msgid ""
+"Show a table of <b>calore burning rates</b> by common exercises after this "
+"calculator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://zubaer.com/wordpress/downloads/calorie-calculator-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Calorie Calculator can be used to estimate the calories you need to "
+"consume each day. This calculator can also provide some simple guideline if "
+"you want to gain or lose weight. Use the \"metric units\" tab if you are "
+"more comfortable with the international standard metric units."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Md. Zubaer Ahammed"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://zubaer.com"
+msgstr ""

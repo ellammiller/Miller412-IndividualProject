@@ -1,0 +1,231 @@
+/**
+ * General CSS
+ */
+
+.hide {
+    display: none !important;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.calorie_calculator_tabs input::-webkit-input-placeholder {
+   color: #ddd;
+}
+
+.calorie_calculator_tabs input:-moz-placeholder { /* Firefox 18- */
+   color: #ddd;  
+}
+
+.calorie_calculator_tabs input::-moz-placeholder {  /* Firefox 19+ */
+   color: #ddd;  
+}
+
+.calorie_calculator_tabs input:-ms-input-placeholder {  
+   color: #ddd;  
+}
+
+/**
+ * Item Specific CSS
+ */
+
+/* Make nav items full width */
+.ui-tabs .ui-tabs-nav {
+    display: flex;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    flex: 1;
+    display: flex;
+    white-space: normal;
+}
+
+.ui-tabs .ui-tabs-nav li:last-child {
+    margin-right: 0;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    flex: 1;
+    text-align: center;
+}
+
+.calorie_calculator_tabs.ui-tabs ul.ui-tabs-nav li:before{
+    display:none;
+}
+
+.calorie_calculator_single_result.green .bmr_val {
+    color: rgb(0, 128, 0);
+}
+
+p.calorie_calculator_single_result {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    padding: 0.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+div.calorie_calculator_tabs input {
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.calorie_calculator_metric_show_errors .calorie_calculator_show_errors, .calorie_calculator_us_show_errors .calorie_calculator_show_errors{
+    color: #a94442;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.calorie_calculator_tabs .ui-tabs-panel {
+    padding: 0.4em;
+}
+
+.calorie_calculator_result p.calorie_calculator_single_result {
+    margin-bottom: 0;
+}
+
+p.calorie_calculator_single_result:last-child {
+    border-bottom: none;
+}
+
+.calorie_calculator_tabs input[type="submit"] {
+    /*margin-top: 1em;*/
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.height_feet_inch {
+    display: flex;
+}
+
+.height_feet_inch input.calorie_calculator_height_feet {
+    margin-right: 1%;
+    width: 49%;
+}
+
+.height_feet_inch input#calorie_calculator_height_inch {
+    margin-left: 1%;
+    width: 49%;
+}
+
+select#calorie_calculator_activity {
+    border-radius: 2px;
+    max-width: 100%;
+}
+
+div.calorie_calculator_tabs.calorie_calculator_old div label {
+    /*display: block;*/
+    display: inline-table;
+}
+
+/*div#tabs-1, div#tabs-2 {
+    padding: 0.4em;
+}*/
+
+div[id^="tabs-1"], div[id^="tabs-2"] {
+    padding: 0.4em;
+}
+
+input#calorie_calculator_age, input.calorie_calculator_height, input#calorie_calculator_weight, .send_or_download input[type="button"], input.send_to_email_input, select#calorie_calculator_activity {
+    width: 100%;
+    height: 44px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.calorie_calculator_old input.calorie_calculator_height_feet, .calorie_calculator_old input#calorie_calculator_height_inch, 
+.calorie_calculator_tabs input[type="submit"],  .calorie_calculator_old select#calorie_calculator_activity, 
+.calorie_calculator_tabs input.user_email {
+    height: 44px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+} 
+
+/* Send or Download */
+
+div.send_or_download {
+    padding: 0.4em;
+}
+
+input.send_to_email_input {
+    margin-top: 0.5em;
+}
+
+input.send_to_email_toggle_button {
+    margin-top: 0.5em;
+}
+
+div.download_as_pdf_status {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.calorie_calculator_tabs div.download_as_pdf_status {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+img.calorie_calculator_captcha_img {
+    margin: 2% auto;
+    display: block;
+}
+
+span.captcha_try_another {
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
+}
+
+input.download_as_pdf_submit_initializer_button {
+    margin-top: 2%;
+}
+
+input.calorie_verify_captcha {
+    width: 100%;
+}
+
+/* Chart */
+.calorie_calculator_chart input[type="search"] {
+    width: initial;
+    padding: 0;
+}
+.calorie_calculator_chart_heading {
+    text-align: center;
+}
+.calorie_calculator_chart .calorie_calculator_chart_heading {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+p.calorie_calculator_head_note {
+    margin-bottom: 1%;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Admin Specific */
+
+.calorie_setting_footer > .submit {
+    margin-right: 1%;
+}
+.calorie_setting_footer {
+    display: flex;
+}
+.about_calorie_calculator {
+    text-align: center;
+    margin-top: 2%;
+    line-height: 1.6em;
+    font-size: 1.6em;
+}
+
+.calorie_calculator_old .full_width {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.calorie_calculator_tabs input.clear_form {
+    width: 100%;
+    padding: 1em;
+}

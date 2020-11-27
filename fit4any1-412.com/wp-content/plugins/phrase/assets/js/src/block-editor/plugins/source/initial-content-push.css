@@ -1,0 +1,20 @@
+.components-button.phrase-push-content.has-text {
+	width: 100%;
+	justify-content: center;
+}
+
+.phrase-initial-content-push {
+	flex-direction: column;
+	align-items: start;
+	margin-top: 15px;
+
+	.components-tip {
+		margin-top: 15px;
+	}
+}
+
+.components-notice-list .components-notice__action.phrase-push-content-notice-action {
+	display: inline-flex;
+	margin-left: 12px;
+	margin-top: 0;
+}

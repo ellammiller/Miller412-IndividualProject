@@ -1,0 +1,732 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:14:49
+* VERSION: 1.3.40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.9                                 |7.4.11
+OS__________________: Darwin                                |Linux
+CREATED_____________: 2020-11-23 16:23:04
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.3.40
+DB__________________: 5.7.30
+DB TABLES___________: 55
+DB ROWS_____________: 2,410
+DB FILE SIZE________: 8.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.11 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/dh_euav45/fit4any1-412.com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://www.fit4any1-412.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/dh_euav45/fit4any1-412.com/20201123_fit4any1_[HASH]_20201123162304_archive.zip"
+SIZE________________: 127.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 06:16:13 - RUNTIME: 83.7054 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2002): No such file or directory [CODE:2|FILE:/home/dh_euav45/fit4any1-412.com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: No such file or directory[ERRNO:2002]
+[PHP ERR][WARN] MSG:preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 [CODE:2|FILE:/home/dh_euav45/fit4any1-412.com/dup-installer/main.installer.php|LINE:45]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:31:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.28 -- Build Server: 5.7.30
+FILE SIZE:	dup-database__[HASH].sql (2.99MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/dh_euav45/fit4any1-412.com/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.28] is less than the build version [5.7.30].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/dh_euav45/fit4any1-412.com/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:393]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	2560
+
+wp_WS_LS_AWARDS: (0)
+wp_WS_LS_AWARDS_GIVEN: (0)
+wp_WS_LS_CHALLENGES: (0)
+wp_WS_LS_CHALLENGES_DATA: (0)
+wp_WS_LS_DATA: (2)
+wp_WS_LS_DATA_TARGETS: (1)
+wp_WS_LS_DATA_USER_PREFERENCES: (0)
+wp_WS_LS_DATA_USER_STATS: (1)
+wp_WS_LS_EMAIL_TEMPLATES: (3)
+wp_WS_LS_ERROR_LOG: (1)
+wp_WS_LS_EXPORT: (0)
+wp_WS_LS_EXPORT_REPORT: (0)
+wp_WS_LS_GROUPS: (0)
+wp_WS_LS_GROUPS_USER: (0)
+wp_WS_LS_META_ENTRY: (0)
+wp_WS_LS_META_FIELDS: (4)
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (33)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_cp_calculated_fields_form_discount_codes: (0)
+wp_cp_calculated_fields_form_posts: (0)
+wp_cp_calculated_fields_form_revision: (44)
+wp_cp_calculated_fields_form_settings: (7)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (331)
+wp_pmpro_discount_codes: (0)
+wp_pmpro_discount_codes_levels: (0)
+wp_pmpro_discount_codes_uses: (0)
+wp_pmpro_membership_levelmeta: (1)
+wp_pmpro_membership_levels: (1)
+wp_pmpro_membership_ordermeta: (0)
+wp_pmpro_membership_orders: (0)
+wp_pmpro_memberships_categories: (0)
+wp_pmpro_memberships_pages: (0)
+wp_pmpro_memberships_users: (0)
+wp_postmeta: (1501)
+wp_posts: (389)
+wp_term_relationships: (20)
+wp_term_taxonomy: (2)
+wp_termmeta: (0)
+wp_terms: (2)
+wp_um_metadata: (0)
+wp_usermeta: (60)
+wp_users: (2)
+wp_wpuf_subscribers: (0)
+wp_wpuf_transaction: (0)
+wp_yk_mt_entry: (6)
+wp_yk_mt_entry_meals: (18)
+wp_yk_mt_meal_types: (6)
+wp_yk_mt_meals: (1)
+wp_yk_mt_settings: (1)
+Removed '52' cache/transient rows
+
+INSERT DATA RUNTIME: 2.7195 sec.
+STEP-2 COMPLETE @ 06:31:25 - RUNTIME: 2.7641 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:31:52
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Fit4Any1"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Users/ellamiller/Sites/fit4any1"
+path_new______________: "/home/dh_euav45/fit4any1-412.com"
+siteurl_______________: "http://www.fit4any1-412.com"
+url_old_______________: "http://localhost:8888/fit4any1"
+url_new_______________: "http://www.fit4any1-412.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_WS_LS_AWARDS"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_AWARDS_GIVEN"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_CHALLENGES"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_CHALLENGES_DATA"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_DATA"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_WS_LS_DATA_TARGETS"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_WS_LS_DATA_USER_PREFERENCES"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_DATA_USER_STATS"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_WS_LS_EMAIL_TEMPLATES"________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_WS_LS_ERROR_LOG"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_WS_LS_EXPORT"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_EXPORT_REPORT"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_GROUPS"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_GROUPS_USER"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_META_ENTRY"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_WS_LS_META_FIELDS"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_discount_codes"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_posts"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_revision"___________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_settings"___________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   331][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_pmpro_discount_codes"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_levels"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_uses"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_levelmeta"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_pmpro_membership_levels"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_pmpro_membership_ordermeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_orders"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_categories"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_pages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_users"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1501][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   389][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_um_metadata"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_wpuf_subscribers"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpuf_transaction"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yk_mt_entry"__________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_yk_mt_entry_meals"____________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_yk_mt_meal_types"_____________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_yk_mt_meals"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+
+EVALUATE TABLE: "wp_yk_mt_settings"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/ellamiller/Sites/fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  2:"\/Users\/ellamiller\/Sites\/fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  3:"%2FUsers%2Fellamiller%2FSites%2Ffit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  4:"\Users\ellamiller\Sites\fit4any1" ================> "/home/dh_euav45/fit4any1-412.com"
+	SEARCH  5:"\\Users\\ellamiller\\Sites\\fit4any1" ============> "\/home\/dh_euav45\/fit4any1-412.com"
+	SEARCH  6:"%5CUsers%5Cellamiller%5CSites%5Cfit4any1" ========> "%2Fhome%2Fdh_euav45%2Ffit4any1-412.com"
+	SEARCH  7:"//localhost:8888/fit4any1" =======================> "//www.fit4any1-412.com"
+	SEARCH  8:"\/\/localhost:8888\/fit4any1" ====================> "\/\/www.fit4any1-412.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Ffit4any1" ===============> "%2F%2Fwww.fit4any1-412.com"
+	SEARCH 10:"https://www.fit4any1-412.com" ====================> "http://www.fit4any1-412.com"
+	SEARCH 11:"https:\/\/www.fit4any1-412.com" ==================> "http:\/\/www.fit4any1-412.com"
+	SEARCH 12:"https%3A%2F%2Fwww.fit4any1-412.com" ==============> "http%3A%2F%2Fwww.fit4any1-412.com"
+--------------------------------------
+SCANNED:	Tables:55 	|	 Rows:2450 	|	 Cells:17834 
+UPDATED:	Tables:4 	|	 Rows:541 	|	 Cells:668 
+ERRORS:		0 
+RUNTIME:	1.200000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""fit4any1412_db""
+	UPDATE DB_USER ""emille51""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""mysql.fit4any1-412.com""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:31:53 - RUNTIME: 1.3181 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

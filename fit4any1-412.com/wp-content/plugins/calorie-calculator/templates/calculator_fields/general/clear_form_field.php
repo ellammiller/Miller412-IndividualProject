@@ -1,0 +1,1 @@
+<input class="clear_form" type="button" value="<?php esc_html_e('Clear Form', 'zubaer-calorie-calculator'); ?>">

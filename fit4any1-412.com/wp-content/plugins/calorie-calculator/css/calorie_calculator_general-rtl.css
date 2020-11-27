@@ -1,0 +1,929 @@
+/*/**
+ * General CSS
+ */
+
+.hide {
+    display: none !important;
+}
+
+
+/*.calorie_calculator_general *, .smooth_transition {
+
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+
+}*/
+
+
+.calcalpro_wrapper {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.calorie_calculator_general, .calorie_calculator_form {
+    position: relative;
+    font-size: 1em;
+}
+
+.calorie_calculator_general .calcal_tab form input.empty-highlight {
+    border: 1px solid #ff0000;
+}
+
+.calorie_calculator_general .calcalpro_body_wrapper {
+    padding: 0 0.5em;
+}
+
+.calcalpro_body_wrapper {
+    padding: 0 0.5em;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+}
+
+.calorie_calculator_show_errors {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+
+}
+
+.calcal_flash_message {
+    background: RGBA(253, 215, 69, 1);
+    color: #fff;
+    padding: 1em;
+    border-radius: 1.8em;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+
+    z-index: 9999;
+
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+
+}
+
+
+.calorie_calculator_general .tab_header_container {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    position: relative;
+    border-bottom: none;
+}
+
+.switch-left-to-right {
+    background: RGBA(72, 185, 166, 1.00);
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 50px;
+
+    -webkit-transition: right 0.25s ease-out;
+    -moz-transition: right 0.25s ease-out;
+    -ms-transition: right 0.25s ease-out;
+    -o-transition: right 0.25s ease-out;
+    transition: right 0.25s ease-out;
+
+}
+
+.switch-left-to-right.right {
+    /*right: 0;*/
+    right: 50%;
+    /*left: initial;*/
+
+    -webkit-transition: right 0.25s ease-out;
+    -moz-transition: right 0.25s ease-out;
+    -ms-transition: right 0.25s ease-out;
+    -o-transition: right 0.25s ease-out;
+    transition: right 0.25s ease-out;
+
+}
+
+.calorie_calculator_general ul.tab_header_container li {
+    flex: 1;
+    /*background: #fff;*/
+    background: transparent;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+
+}
+
+/*.calorie_calculator_general ul.tab_header_container li a:hover {
+    background: RGBA(72, 185, 166, 0.3);
+    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+
+}
+*/
+
+/*.calorie_calculator_general ul.tab_header_container li.calcal_tab_active a {
+    color: #fff;
+    cursor: unset;
+    background: RGBA(72, 185, 166, 1.00);
+}*/
+
+
+.calorie_calculator_general ul.tab_header_container li a:focus, .calorie_calculator_general ul.tab_header_container li a:hover {
+
+    box-shadow: none;
+
+}
+
+.calorie_calculator_general ul.tab_header_container li.calcal_tab_active a {
+    color: #fff;
+    cursor: unset;
+    background: transparent;
+    position: relative;
+    z-index: 999;
+    font-size: 1em;
+}
+
+
+.calorie_calculator_general ul.tab_header_container li a {
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: none;
+    display: block;
+    /*padding: 1em;*/
+    padding: 0;
+    height: 50px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    font-size: 1em;
+
+}
+
+/*.calorie_calculator_general .calcal_tab {*/
+.calorie_calculator_general .both_units.calcal_tab {
+    display: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.calorie_calculator_general .calcal_tab_open {
+    display: block !important;
+}
+
+.calorie_calculator_general .calcal_tab form input,
+.calorie_calculator_general .calcal_tab form select,
+.calorie_calculator_general .send_or_download input  {
+    min-height: 50px !important;
+    width: 100% !important;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    padding: 0.5em;
+    background: #fff;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    margin-top: 0 !important;
+
+
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+
+    text-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+
+    font-size: 1em;
+    color: #333;
+
+
+}
+
+.calorie_calculator_general .calcal_tab form input:active, .calorie_calculator_general .calcal_tab form select:active,
+.calorie_calculator_general .calcal_tab form input:focus, .calorie_calculator_general .calcal_tab form select:focus {
+
+    border: 1px solid RGBA(252, 214, 83, 1.00);
+    box-shadow: none;
+
+}
+
+.calorie_calculator_general .calcal_tab form .full_width, .calorie_calculator_general .calcal_tab form .full_width {
+    width: 100% !important;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    height: 50px;
+    align-items: center;
+
+}
+
+.calorie_calculator_general .calcal_tab form .width_half, .calorie_calculator_general .calcal_tab form .width_half {
+    width: 50% !important;
+}
+
+.calorie_calculator_general .calcal_tab form input[type="radio"] {
+    width: initial !important;
+    border: none !important;
+}
+
+.calorie_calculator_general .calcal_tab form > div {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.calorie_calculator_general .calcal_tab form input.calorie_calculator_height_feet,
+.calorie_calculator_general .calcal_tab form input[type="submit"] {
+    border-right: none;
+}
+
+.calorie_calculator_general .calcal_tab form input.last_name {
+    border-left: none;
+}
+
+.calorie_calculator_general .calcal_tab form input[type="submit"], .calorie_calculator_general .calcal_tab form input.calcalpro_submit {
+    background: RGBA(72, 185, 166, 1.00);
+    font-size: 1em;
+    color: #fff;
+}
+
+.calorie_calculator_general .calcal_tab form input[type="submit"]:hover {
+    background: RGBA(17, 132, 69, 0.8);
+    color: #fff;
+    border-left: none;
+}
+
+/*
+.calorie_calculator_general .calcal_tab form input[type="submit"] {
+
+    background: linear-gradient(to left, RGBA(72, 185, 166, 1.00) 50%, RGBA(17, 132, 69, 1.00) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.calorie_calculator_general .calcal_tab form input[type="submit"]:hover {
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    background-position: left bottom;
+}*/
+
+
+.calorie_calculator_general .calcal_tab form input.clear_form {
+    background: RGBA(255,255,0,0.5);
+    color: #333;
+    font-size: 1em;
+}
+
+.calorie_calculator_general .calcal_tab form input.clear_form:hover {
+    background: RGBA(253, 215, 69, 0.7);
+    color: #333;
+
+}
+
+
+
+
+/** Custom Readio Button */
+
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) {
+    position: absolute;
+    right: -9999px;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-right: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:before,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    border-radius: 100%;
+    background: #fff;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:after,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: RGBA(77, 184, 166, 1.00);
+    position: absolute;
+    top: 3;
+    right: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) {
+    position: absolute;
+    right: -9999px;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-right: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #000;
+    margin: 0;
+    margin-left: 1em;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:before,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid 1px solid RGBA(77, 184, 166, 1.00);
+    border-radius: 100%;
+    background: #fff;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:after,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: RGBA(77, 184, 166, 1.00);
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:after,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:after,
+.calorie_calculator_general .calcal_tab form input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.calorie_calculator_general .gender_field_wrapper {
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    padding: 0 0.5em;
+}
+
+
+
+
+
+/** Selex box CSS Starts */
+
+
+.calorie_calculator_general .center {
+    position: absolute;
+    display: inline-block;
+    top: 50%; right: 50%;
+    transform: translate(50%, -50%);
+}
+
+/** Custom Select **/
+.calorie_calculator_general .calcalpro-custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 100%;
+}
+.calorie_calculator_general .calcalpro-custom-select-wrapper select {
+    display: none;
+}
+.calorie_calculator_general .calcalpro-custom-select {
+    position: relative;
+    /*display: inline-block;*/
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+    width: 100%;
+}
+.calorie_calculator_general .calcalpro-custom-select-trigger {
+    position: relative;
+    display: block;
+    width: 100%;
+    /*padding: 0.5em;*/
+    padding: 0 0.5em;
+    /*font-weight: 300;*/
+    color: #333;
+    /*line-height: 60px;*/
+    /*background: #5c9cd8;*/
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+
+}
+.calorie_calculator_general .calcalpro-custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 12px; height: 12px;
+    top: 50%; left: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid RGBA(77, 184, 166, 1.00);
+    border-left: 1px solid RGBA(77, 184, 166, 1.00);
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0;
+}
+.calorie_calculator_general .calcalpro-custom-select.opened .calcalpro-custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%);
+}
+.calorie_calculator_general .calcalpro-custom-options {
+    position: absolute;
+    display: block;
+    top: 100%; right: 0; left: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0,0,0,.07);
+    background: #fff;
+    transition: all .4s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+}
+.calorie_calculator_general .calcalpro-custom-select.opened .calcalpro-custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9999;
+}
+.calorie_calculator_general .calcalpro-custom-options:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 100%; left: 25px;
+    width: 7px; height: 7px;
+    margin-bottom: -4px;
+    border-top: 1px solid RGBA(77, 184, 166, 1.00);
+    border-right: 1px solid RGBA(77, 184, 166, 1.00);
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all .4s ease-in-out;
+}
+.calorie_calculator_general .option-hover:before {
+    background: #f9f9f9;
+}
+.calorie_calculator_general .calcalpro-custom-option {
+    position: relative;
+
+    /*display: block;*/
+    display: flex;
+    align-items: center;
+
+    /*padding: 0 22px;*/
+    padding: 0 0.5em;
+
+    border-bottom: 1px solid RGBA(77, 184, 166, 1.00);
+    font-size: 1em;
+    color: #333;
+
+    /*line-height: 47px;*/
+    min-height: 50px;
+
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+
+
+}
+.calorie_calculator_general .calcalpro-custom-option:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+.calorie_calculator_general .calcalpro-custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+.calorie_calculator_general .calcalpro-custom-option:hover,
+.calorie_calculator_general .calcalpro-custom-option.selection {
+    background: RGBA(255,255,0,0.5);
+}
+
+/** Selex box CSS Ends */
+
+
+
+.calorie_calculator_general .calorie_calculator_result {
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    margin-bottom: 0.5em;
+}
+
+.calorie_calculator_general .calorie_calculator_single_result {
+    padding: 0.6em 0.5em;
+    font-size: 1em;
+    border-bottom: 1px solid RGBA(77, 184, 166, 1.00);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.calorie_calculator_general .calorie_calculator_single_result span {
+    font-size: 1.2em;
+    margin-left: 0.2em;
+    color: RGBA(77, 184, 166, 1.00);
+}
+
+.calorie_calculator_general .send_or_download input[type="button"] {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    border-radius: 0;
+    text-shadow: none;
+    box-shadow: none;
+    background: RGBA(77, 184, 166, 1.00);
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.calorie_calculator_general .send_or_download {
+    padding: 0;
+}
+.calorie_calculator_general .send_or_download input[type="button"] {
+    width: 100%;
+    background: RGBA(77, 184, 166, 1.00);
+}
+.calorie_calculator_general .send_or_download input.send_to_email_submit,
+.calorie_calculator_general .send_or_download input.download_as_pdf_submit {
+    background: RGBA(253, 215, 69, 0.7);
+    color: #333;
+}
+
+
+.calorie_calculator_general input.send_to_email_input, .calorie_calculator_general input.calorie_verify_captcha,
+.calorie_calculator_general input.send_to_email_toggle_button,
+.calorie_calculator_general input.download_as_pdf_submit_initializer_button,
+.calorie_calculator_general input.download_as_pdf_submit {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+.calorie_calculator_general .send_or_download .email_sent_status, .calorie_calculator_general .send_or_download .email_sent_status span {
+    text-align: center;
+    color: RGBA(17, 132, 69, 0.8);
+    font-size: 1em;
+    padding: 0.5em;
+    padding-top: 0;
+}
+
+.calorie_calculator_general .download_as_pdf_status {
+    font-size: 1em;
+    font-weight: bold;
+    color: RGBA(17, 132, 69, 0.8);
+    padding-bottom: 0.5em;
+    padding-top: 0;
+    text-align: center;
+}
+
+.download_as_pdf_status .download_file_now {
+    background: RGBA(17, 132, 69, 0.8);
+    display: block;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+}
+.download_as_pdf_status .download_file_now:hover {
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.calorie_calculator_general .send_or_download input.download_as_pdf_submit_initializer_button {
+    margin-top: 0;
+}
+.calorie_calculator_general .send_or_download input.send_to_email_submit {
+    margin-bottom: 0.5em;
+}
+.calorie_calculator_general input.calorie_verify_captcha {
+    margin-bottom: 0;
+}
+
+
+.download_as_pdf_status .download_file_now:focus {
+    box-shadow: none;
+}
+
+
+/* Tooltip */
+.calcalpro_wrapper .calcalpro_tooltip {
+    position: relative !important;
+}
+
+.calcalpro_wrapper .calcalpro_tooltip .calcalpro_tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 9999;
+    bottom: 115%;
+    right: 50%;
+    margin-right: -100px;
+}
+
+.calcalpro_wrapper .calcalpro_tooltip .calcalpro_tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    margin-right: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.calcalpro_wrapper .calcalpro_tooltip:hover .calcalpro_tooltiptext {
+    visibility: visible;
+}
+
+.calcalpro_wrapper .license_key_validity_area {
+    position: absolute;
+    top: 0;
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.calcalpro_wrapper .license_key_validity_area_inner {
+    padding: 2em;
+    text-align: center;
+}
+
+.calcalpro_wrapper .license_key_validity_area_inner h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.calcalpro_wrapper .license_key_validity_area_inner a {
+    color: yellow;
+}
+
+.calcalpro_wrapper .license_key_validity_area_inner a:hover {
+    color: RGBA(77, 184, 166, 1.00);
+}
+
+
+.calcalpro_captcha {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/** Foods and Exercises Table CSS */
+.calorie_calculator_chart.calorie_calculator_chart_general .fg-toolbar.ui-toolbar.ui-widget-header {
+    background: RGBA(77, 184, 166, 1.00);
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    /*height: 52px;*/
+    padding: 2px;
+}
+.calorie_calculator_chart.calorie_calculator_chart_general .fg-toolbar.ui-toolbar.ui-widget-header > div {
+    flex: 1;
+}
+.calorie_calculator_chart.calorie_calculator_chart_general .dataTables_wrapper input[type="search"] {
+    width: 100%;
+    height: 50px;
+    padding: 0.5em;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+    box-shadow: none;
+}
+.calorie_calculator_chart.calorie_calculator_chart_general .fg-toolbar.ui-toolbar.ui-widget-header label {
+    margin: 0;
+    width: 100%;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .fg-toolbar.ui-toolbar.ui-widget-header label select {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0.5em;
+    border: 1px solid RGBA(77, 184, 166, 1.00);
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general table {
+    border: 2px solid RGBA(77, 184, 166, 1.00);
+    border-top: 0;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .dataTables_paginate {
+    margin: 0;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .dataTables_info {
+    display: none;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .dataTables_wrapper .dataTables_paginate .fg-button {
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 0;
+    background: RGBA(255, 254, 155, 1.00);
+    color: #333;
+    border: 1px solid RGBA(252, 214, 83, 1.00);
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .dataTables_wrapper .dataTables_paginate .fg-button.ui-state-disabled {
+    background: RGBA(253, 215, 69, 1);
+    opacity: 1;
+    color: #fff;
+}
+
+table.dataTable thead th.ui-state-default:first-child, table.dataTable tfoot th.ui-state-default:first-child {
+    border-right-width: 1px;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general .ui-state-default,
+.calorie_calculator_chart.calorie_calculator_chart_general .ui-widget-content .ui-state-default,
+.calorie_calculator_chart.calorie_calculator_chart_general .ui-widget-header .ui-state-default {
+    border: 1px solid RGBA(82, 184, 166, 1.00);
+    background: RGBA(252, 214, 83, 1.00);
+    color: #333;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.display tbody tr.odd>.sorting_1,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: RGBA(82, 184, 166, 1.00);
+    color: #fff;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.stripe tbody tr.odd,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.display tbody tr.odd {
+    background-color: RGBA(86, 184, 166, 1.00);
+    color: #fff;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.row-border tbody th,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.row-border tbody td,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.display tbody th,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.display tbody td {
+    border-top: none;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general tr {
+    border-bottom: none;
+    background: RGBA(255, 253, 160, 1.00);
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.display tbody tr.even>.sorting_1,
+.calorie_calculator_chart.calorie_calculator_chart_general table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: RGBA(255, 253, 160, 1.00);
+}
+
+@media screen and (max-width: 640px) {
+
+    .calorie_calculator_chart.calorie_calculator_chart_general .dataTables_wrapper .dataTables_filter {
+        margin-top: 0;
+    }
+
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.calorie_calculator_chart.calorie_calculator_chart_general tr td {
+    border: 1px solid RGBA(86, 184, 166, 1.00);
+}
+
+
+.widget_zubaer-calorie-calculator, .calcalpro_wrapper {
+    overflow: visible !important;
+}
+
+.calorie_calculator_general .height_feet_inch.full_width > input {
+    width: 50% !important;
+}
+
+.widget_zubaer-calorie-calculator, .calcalpro_wrapper {
+    overflow: visible !important;
+}
+
+.calorie_calculator_general .height_feet_inch.full_width > input {
+    width: 50% !important;
+}
+
+/** Free Version Specific */
+
+.calorie_calculator_general .calorie_calculator_result {
+    margin-bottom: 0.5em;
+}
+.calorie_calculator_general .calorie_calculator_single_result:last-child {
+    border-bottom: none;
+}

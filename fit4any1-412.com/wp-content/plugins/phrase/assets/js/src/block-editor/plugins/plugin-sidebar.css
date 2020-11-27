@@ -1,0 +1,36 @@
+.phrase-app-logo {
+	width: 20px;
+	height: 20px;
+}
+
+.phrase-plugin-sidebar {
+	&.components-panel {
+		height: calc( 100% - 48px );
+		border: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__content {
+		.components-panel__body {
+			margin-top: -1px;
+			border-bottom-width: 0;
+		}
+	}
+
+	&__footer {
+		padding: 6px 16px 16px;
+
+		p {
+			margin: 0;
+			text-align: center;
+			border-top: 1px solid #f0f0f0;
+			padding-top: 10px;
+		}
+
+		.components-external-link__icon {
+			display: none;
+		}
+	}
+}
